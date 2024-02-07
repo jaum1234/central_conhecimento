@@ -51,5 +51,5 @@ Obs: Ao menos no VSCode, um quarto estado pode ser observado: Não rastreado. Um
 ```php
 git config
 
-// adicionar flag --help ao final do comando para mais informações
+// adicionar flag --help ou -h ao final do comando para mais informações
 ```
