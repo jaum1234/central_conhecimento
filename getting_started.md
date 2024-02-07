@@ -46,3 +46,10 @@
 ![](https://i.gyazo.com/5f7257dadc760075b9162d108538c4ec.png)
 
 Obs: Ao menos no VSCode, um quarto estado pode ser observado: Não rastreado. Um arquivo se encontra nesse estado quando ele nunca foi commitado anteriomente.
+
+## Comandos
+```php
+git config
+
+// adicionar flag --help ao final do comando para mais informações
+```
