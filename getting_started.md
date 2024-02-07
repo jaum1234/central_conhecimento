@@ -1,4 +1,4 @@
-# VERSION CONTROL
+# GETTING STARTED
 
 ## O que é Controle de Versão
 - Sistema de controle de versões;
