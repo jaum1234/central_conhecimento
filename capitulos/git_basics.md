@@ -52,3 +52,10 @@ node_modules
 - Finalizar um padrão com / especifica um diretório;
 - Negar com padrão iniciando com !;
 
+### Visualizando Mudanças
+```php
+git diff // compara o diretório de trabalho com a área de staging
+git diff --staged ou --cached // exibe tudo que está na área de staging
+```
+
+### Commitando Alterações
