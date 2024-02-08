@@ -1,4 +1,4 @@
-# GIT BASICS
+# Git Basics
 
 ## Inicializando um Repositório em um Diretório Existente
 ```
@@ -97,3 +97,5 @@ mv arquivo_de arquivo_para
 git rm arquivo_de
 git add arquivo_para
 ```
+
+## Visualizando o Histórico de Commits
