@@ -59,3 +59,10 @@ git diff --staged ou --cached // exibe tudo que está na área de staging
 ```
 
 ### Commitando Alterações
+```php
+git commit // abre o editor de texto configurado para que uma mensagem seja adicionada ao commit
+git commit -m <mensagem> // permite escrever a mensagem do commit via linha de comando
+git commit -v // exibe no editor o resultado do git diff --staged
+```
+
+### Pulando a Área de Staging
