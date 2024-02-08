@@ -81,3 +81,19 @@ git rm -f <arquivo> // força a remoção de um arquivo que já está na área d
 
 git rm --cached <arquivo> // remove o arquivo da área de staging
 ```
+
+### Movendo Arquivos
+- O Git não rastreia arquivos explicitamente;
+- Nenhum metadado é armazenado, indicando que um arquivo tenha sido renomeado, por exemplo;
+```php
+git mv arquivo_de arquivo_para
+```
+- A renomeação é feita de forma implícita, movendo os dados de um arquivo para outro;
+- O Git é inteligente o suficiente para entender que essa renomeação aconteceu (isso pode ser observado pelo ```git status```);
+
+O comando acima é equivalente a:
+```php
+mv arquivo_de arquivo_para
+git rm arquivo_de
+git add arquivo_para
+```
