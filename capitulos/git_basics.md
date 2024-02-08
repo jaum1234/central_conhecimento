@@ -70,3 +70,14 @@ git commit -v // exibe no editor o resultado do git diff --staged
 git commit -a
 ```
 Automaticamente adiciona os arquivos à área de staging, sem a necessidade do ```git add```, e commita as alterações.
+
+### Removendo Arquivos
+```php
+rm <arquivo> // removendo arquivo do diretório de trabalho
+git rm <arquivo> // adiciona o arquivo na área de staging para remoção do banco do git
+```
+```php
+git rm -f <arquivo> // força a remoção de um arquivo que já está na área de staging (remove tanto do git, quanto do diretório de trabalho)
+
+git rm --cached <arquivo> // remove o arquivo da área de staging
+```
