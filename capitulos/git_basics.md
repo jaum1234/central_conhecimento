@@ -99,3 +99,27 @@ git add arquivo_para
 ```
 
 ## Visualizando o Histórico de Commits
+```php
+git log
+```
+Exibe uma lista de todos os commits em cronologia reversa.
+
+```
+git log --patch
+```
+Adiciona ao output as mudanças que ocorreram em cada commit.
+
+```
+git log --stat
+```
+Sumariza o status (arquivos modificados, removidos, inseridos, numero de linhas modificas e etc) de cada commit.
+
+```php
+git log --pretty=(oneline|short|full|fuller|format)
+
+// Quando utilizado a opção 'format', uma exibição personalizada pode ser especificada.
+
+git log --pretty=format:"%h - %an, %ar : %s"
+```
+Formata a exibiçâo do log.
+![](https://i.gyazo.com/48507fa73655a4df004f70ad98f22204.png)
