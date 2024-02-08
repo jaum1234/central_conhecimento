@@ -66,3 +66,7 @@ git commit -v // exibe no editor o resultado do git diff --staged
 ```
 
 ### Pulando a Área de Staging
+```
+git commit -a
+```
+Automaticamente adiciona os arquivos à área de staging, sem a necessidade do ```git add```, e commita as alterações.
