@@ -104,15 +104,21 @@ git log
 ```
 Exibe uma lista de todos os commits em cronologia reversa.
 
+---
+
 ```
 git log --patch
 ```
 Adiciona ao output as mudanças que ocorreram em cada commit.
 
+---
+
 ```
 git log --stat
 ```
 Sumariza o status (arquivos modificados, removidos, inseridos, numero de linhas modificas e etc) de cada commit.
+
+---
 
 ```php
 git log --pretty=(oneline|short|full|fuller|format)
@@ -122,4 +128,18 @@ git log --pretty=(oneline|short|full|fuller|format)
 git log --pretty=format:"%h - %an, %ar : %s"
 ```
 Formata a exibiçâo do log.
+
 ![](https://i.gyazo.com/48507fa73655a4df004f70ad98f22204.png)
+
+---
+```
+git log --pretty=format:"%h %s" --graph
+git log --pretty=oneline --graph
+```
+Exibe um gráfico que mostra as branchs e o histórico de merges.
+
+---
+
+![](https://i.gyazo.com/85aac2bc4dc5d440b53accb1425a2f36.png)
+
+### Limitando a Saída do Log
