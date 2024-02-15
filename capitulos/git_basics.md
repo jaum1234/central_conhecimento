@@ -139,7 +139,58 @@ git log --pretty=oneline --graph
 Exibe um gráfico que mostra as branchs e o histórico de merges.
 
 ---
+Opções comuns para o git log:
 
 ![](https://i.gyazo.com/85aac2bc4dc5d440b53accb1425a2f36.png)
 
+---
+
 ### Limitando a Saída do Log
+As opções a seguir tem por objetivo exibir somente um subconjunto de commits.
+
+---
+
+```
+git log -2
+```
+Limita a quantidade exata de commits a serem exibidos.
+
+---
+
+```
+git log --since=2.weeks
+```
+Limita a partir de qual momento os commits devem ser exibidos.
+
+---
+```
+git log --until=2024-02-10
+```
+Limita até qual momento o commits devem ser exibidos.
+
+---
+```
+git log --grep="Entendendo"
+```
+Busca pelos commits que contém a string informada.
+
+---
+```
+git log --author="joao"
+```
+Busca pelos commits com o autor informado.
+
+---
+```
+git log -S <nome-funcao>
+```
+Busca pelos commits que estão relacionados a string informada. A busca ocorre não pelo texto dos commits, mas sim pelas linhas de código alteradas.
+
+---
+git log -G <regex>
+git log -- caminho/para/arquivo
+git log --no-merges
+```
+---
+
+![](https://i.gyazo.com/ac43a01a8360770dc0e66b310997c706.png)
