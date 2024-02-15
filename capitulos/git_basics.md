@@ -187,6 +187,7 @@ git log -S <nome-funcao>
 Busca pelos commits que estão relacionados a string informada. A busca ocorre não pelo texto dos commits, mas sim pelas linhas de código alteradas.
 
 ---
+```
 git log -G <regex>
 git log -- caminho/para/arquivo
 git log --no-merges
@@ -194,3 +195,6 @@ git log --no-merges
 ---
 
 ![](https://i.gyazo.com/ac43a01a8360770dc0e66b310997c706.png)
+
+---
+## Desfazendo Coisas
