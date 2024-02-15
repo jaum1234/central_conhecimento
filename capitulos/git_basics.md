@@ -201,7 +201,7 @@ git log --no-merges
 ```
 git commit --amend -m "Nova mensagem"
 ```
-O comando ```--amend``` sobrescreve o último commit com a área de staging atual e com a nova mensagem de commit. Sendo assim, é como se o último commit nunca tivesse existido.
+O comando ```--amend``` sobrescreve o último commit com a área de staging atual e com a nova mensagem de commit. Desse modo, é como se o último commit nunca houvesse existido.
 
 ---
 ### Removendo Arquivos da Área de Staging
@@ -210,3 +210,15 @@ git reset HEAD <arquivo>
 ```
 
 ---
+### Desmodificando Arquivos
+```
+git restore <arquivo>
+```
+Remove as alterações realizadas em um arquivo, como se elas nunca houvessem existido.
+
+---
+```
+git restore --staged <arquivo>
+```
+Remove o arquivo especificado da área de staging.
+
