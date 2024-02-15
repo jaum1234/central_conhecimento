@@ -202,3 +202,11 @@ git log --no-merges
 git commit --amend -m "Nova mensagem"
 ```
 O comando ```--amend``` sobrescreve o último commit com a área de staging atual e com a nova mensagem de commit. Sendo assim, é como se o último commit nunca tivesse existido.
+
+---
+### Removendo Arquivos da Área de Staging
+```
+git reset HEAD <arquivo>
+```
+
+---
