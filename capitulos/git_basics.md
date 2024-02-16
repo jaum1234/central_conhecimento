@@ -264,3 +264,13 @@ Busca os dados no repositório remoto e faz merge com a árvore de trabalho loca
 ---
 
 No caso de repositórios remotos que não possuem nenhuma base em comum com o repositório local, ou seja, históricos diferentes, a flag ```--allow-unrelated-histories``` deve ser utilizada.
+
+### Enviado Dados Para o Repositório Remoto
+```
+git push <remoto> <branch>
+```
+
+Para enviar dados a um servidor remoto, duas condição precisam ser minimamente satisfeitas:
+
+- Possuir direito de escrita;
+- Nenhum outro usuário pode ter enviado dados anteriormente
