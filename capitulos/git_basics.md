@@ -227,3 +227,19 @@ Remove o arquivo especificado da área de staging.
 ```git rm --staged```: Simplesmente remove o arquivo da área de staging.
 ```git reset```: Equivaliente ao comando ```git restore --staged```.
 
+## Trabalhando com Repositórios Remotos
+Ser um repositório remoto não implica, necessáriamente, estar em outra parte da rede ou na internet, mas sim que está em outro lugar.
+
+Desse modo, podem existir repositórios dentro do mesmo host.
+
+### Mostrando Seus Remotos
+```
+git remote
+```
+Lista todos os servidores remotos.
+
+---
+```
+git remote -v
+```
+Adiciona a URL associada às operações de leitura e escrita do servidor.
