@@ -243,3 +243,20 @@ Lista todos os servidores remotos.
 git remote -v
 ```
 Adiciona a URL associada às operações de leitura e escrita do servidor.
+
+### Adicinando Repositórios Remotos
+```
+git remote add <apelido> <url>
+```
+
+### Buscando Dados dos Repositórios Remotos
+```
+git fetch <remoto>
+```
+Busca os dados no repositório remoto, sem fazer merge com a árvore de trabalho local.
+
+---
+```
+git pull <remote>
+```
+Busca os dados no repositório remoto e faz merge com a árvore de trabalho local.
