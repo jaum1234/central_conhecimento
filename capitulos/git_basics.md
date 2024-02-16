@@ -260,3 +260,7 @@ Busca os dados no repositório remoto, sem fazer merge com a árvore de trabalho
 git pull <remote>
 ```
 Busca os dados no repositório remoto e faz merge com a árvore de trabalho local.
+
+---
+
+No caso de repositórios remotos que não possuem nenhuma base em comum com o repositório local, ou seja, históricos diferentes, a flag ```--allow-unrelated-histories``` deve ser utilizada.
