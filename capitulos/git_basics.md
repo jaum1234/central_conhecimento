@@ -222,3 +222,8 @@ git restore --staged <arquivo>
 ```
 Remove o arquivo especificado da área de staging.
 
+### Git reset x restore x rm
+```git restore --staged```: Faz uma cópia do último commit para a área de staging.
+```git rm --staged```: Simplesmente remove o arquivo da área de staging.
+```git reset```: Equivaliente ao comando ```git restore --staged```.
+
