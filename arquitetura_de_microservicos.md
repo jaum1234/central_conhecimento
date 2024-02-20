@@ -37,6 +37,7 @@ Como organizar os subdomínios em um ou mais componentes deployaveis?
 
 ## # Solução
 
-- Projetar um arquitetura que estruture a aplicação e componentes pouco acoplados, de deploy independente, conhecidos como **serviços**.
+- Projetar um arquitetura que estruture a aplicação em componentes pouco acoplados, de deploy independente, conhecidos como **serviços**.
 - Cada serviço é composto por um ou mais subdomínios;
 - Cada serviço deve possuir seu próprio código fonte e pipeline de deploy;
+
