@@ -18,7 +18,7 @@ Triângulo do sucesso:
 ## # Projetando uma Arquitetura de Microserviços
 
 - Técnlogias são importantes, mas...
-- Projetar uma boa arquitetura e crítico;
+- Projetar uma boa arquitetura é crítico;
     - Identificar serviços;
     - Definir responsabilidades;
 - Assemblage: processo de definição de arquitetura;
