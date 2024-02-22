@@ -7,7 +7,7 @@
 3. As equipes estão dividas em grupos pequenos e pouco acoplados;
 4. Cada equipe entrega o software utilizando práticas de devops;
 5. Uma equipe é responsável por um ou mais subdomínios: 
-    - Modelos implementáveis de um pedaço de funcionalidade de negócio;
+    - Modelos implementáveis de um pedaço de funcionalidade do negócio;
     - Representam o comportamento do sistema (operações);
     - As operações são invocadas via:
         - Requisições sincronas ou assincronas de clientes;
@@ -15,7 +15,7 @@
         - Tempo;
 
 ## # Problema
-Como organizar os subdomínios em um ou mais componentes deployaveis?
+Como organizar os subdomínios em um ou mais componentes implantáveis?
 
 ## # Forças
 
