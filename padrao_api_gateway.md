@@ -11,3 +11,8 @@ Normalmente, os clientes de uma aplicação baseada em microserviços precisam a
 
 Implementar um API Gateway que se responsabilize por receber as requisições de cada cliente de forma centralizada e resolve-las, como por exemplo, redirecionando a requisição para o serviço correto.
 
+Uma outro solução, conhecido como Backends para Frontends, consiste em implementar uma API Gateway para cada tipo de cliente.
+
+## # Referências Bibliográficas
+
+- https://microservices.io/patterns/apigateway.html
