@@ -40,3 +40,7 @@ Como organizar os subdomínios em um ou mais componentes implantáveis?
 - Projetar um arquitetura que estruture a aplicação em componentes pouco acoplados, de deploy independente, conhecidos como **serviços**.
 - Cada serviço é composto por um ou mais subdomínios;
 - Cada serviço deve possuir seu próprio código fonte e pipeline de deploy;
+
+## # Referências Bibliográficas
+
+- https://microservices.io/patterns/microservices.html

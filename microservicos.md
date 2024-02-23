@@ -24,4 +24,5 @@ Triângulo do sucesso:
 - Assemblage: processo de definição de arquitetura;
 
 ## # Referências Bibliográficas
+
 - https://microservices.io/
