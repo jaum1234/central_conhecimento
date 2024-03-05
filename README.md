@@ -2,7 +2,7 @@
 
 Repositório criado com o objetivo de compartilhar os resultados dos meus estudos semanais.
 
-Cronongrama:
+Cronograma:
 
 📃 Backlog de estudos:
 
