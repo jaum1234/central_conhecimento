@@ -17,7 +17,7 @@ Cronograma:
 
 ---
 
-🚀 Estudando no momento:
+🚀 Estudando no momento: Introdução a Devops. 
 
 ---
 
